@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto
+}
+
+#certify .swiper-container {
+	padding-bottom: 60px;
+	/*padding-top: 60px;*/
+}
+
+#certify  .swiper-slide {
+	width: 374px;
+	height: 250px;
+	/*background: #fff;*/
+	box-shadow: 0 8px 30px #ddd;
+	display: flex;
+	flex-direction: column;
+}
+#certify  .swiper-slide img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+#certify  .swiper-slide p {
+/*	line-height: 98px;*/
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	/*left: -30px;*/
+	/*width: 45px;
+	height: 45px;
+	background-position: 0 0;
+	background-size: 100%;*/
+}
+
+#certify .swiper-button-prev:hover {
+	/*background-position: 0 -46px;
+	background-size: 100%*/
+}
+
+#certify .swiper-button-next {
+	/*right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/swiper_button_003.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+	background: #000000;*/
+}
+
+#certify .swiper-button-next:hover {
+	/*background-position: 0 -139px;
+	background-size: 100%*/
+}
+#certify .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /*background: #fff;*/
+		height: 100%;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+	  transition: 300ms;
+	  transform: scale(0.8);
+    }
+#certify .swiper-slide-active,.swiper-slide-duplicate-active{
+      transform: scale(1);
+	}
